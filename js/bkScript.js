@@ -20,3 +20,10 @@ window.addEventListener('click',function (e) {
 
 
 });
+
+
+window.onload=function () {
+    var timeOut=window.setTimeout(function () {
+        document.querySelector('ytFulleHeightVideo').innerHTML='<iframe width="100%" height="100%" src="https://www.youtube.com/embed/IZXgjR9INsA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+    },1500);
+};
