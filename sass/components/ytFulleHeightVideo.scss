@@ -1,0 +1,19 @@
+.ytFulleHeightVideo{
+
+  margin: 1.5rem 0;
+  width: 100%;
+  height: 50rem;
+  background-color: red;
+
+
+  @media (max-width: 650px) {
+    height: 40rem;
+  }
+
+  @media (max-width: 500px) {
+    height: 31rem;
+  }
+  @media (max-width: 400px) {
+    height: 23rem;
+  }
+}

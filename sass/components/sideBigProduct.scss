@@ -1,0 +1,13 @@
+.sideBigProduct{
+  width: 95%;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+
+  a{
+    margin-top: 2rem;
+  }
+}

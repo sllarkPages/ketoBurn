@@ -1,0 +1,68 @@
+.ec {
+  position: relative;
+  .ec__holder {
+    overflow: hidden;
+  }
+  .ec__track {
+    will-change: transform;
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+  .ec__item {
+    float: left;
+    overflow: hidden;
+  }
+  .ec__pagination {
+    text-align: center;
+    margin-top: 10px;
+
+    .pagination__dot {
+      width: 8px;
+      height: 8px;
+      background-color: transparent;
+      display: inline-block;
+      border: 1px solid #000;
+      margin: 0 5px;
+      border-radius: 50%;
+      cursor: pointer;
+
+      &--active {
+        background-color: #000;
+      }
+    }
+  }
+  .ec__nav {
+    position: absolute;
+    top: -4rem;
+    right: 1rem;
+    background-color: $color-primary;
+
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:before{
+      content: "";
+      display: block;
+      background-image: url("../../img/arrow.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      width: 100%;
+      height: 100%;
+    }
+    &--prev {
+      transform: rotate(-180deg);
+      right: 4rem;
+
+    }
+    &--next {
+      //transform: rotate(45deg);
+    }
+  }
+}

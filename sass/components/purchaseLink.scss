@@ -1,0 +1,19 @@
+.purchaseLink{
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bbdaff;
+  border: 2px dashed $color-secondary;
+  padding: 0 0.2rem;
+
+  margin: 1rem 0;
+  a{
+    text-decoration: underline;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+  }
+}

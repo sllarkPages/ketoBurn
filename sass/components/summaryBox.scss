@@ -1,0 +1,26 @@
+.summaryBox{
+  width: 100%;
+  height: auto;
+  min-height: 7rem;
+  box-shadow: 5px 5px 5px rgba(#d2d2d2,0.75);
+  border-left:1px solid #d7d7d7;
+  padding: 1.5rem 2rem 2rem;
+
+  margin: 2rem 0;
+
+  border-top: 5px solid $color-secondary;
+
+  h4{
+    font-size: 1.65rem;
+    font-weight: bold;
+    color: black;
+  }
+
+  &>p{
+    margin-top: 1rem!important;
+    font-size: 1.4rem!important;
+    font-weight: 600!important;
+    line-height: 1.4!important;
+  }
+
+}

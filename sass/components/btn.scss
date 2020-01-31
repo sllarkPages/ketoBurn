@@ -1,0 +1,44 @@
+.btn{
+  max-width: 19rem;
+  padding: 1.5rem 3rem;
+  box-shadow: 5px 5px 5px rgba(black,0.75);
+  text-align: center;
+  vertical-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+
+
+
+  &--blue{
+    background-color: $color-secondary-light;
+    color: white;
+    box-shadow: none;
+    padding: 2.5rem 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  &--darkBlue{
+    background-color: $color-secondary-dark;
+    color: white;
+    box-shadow: none;
+    padding: 2rem 0;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    max-width: 22rem;
+
+  }
+
+  &--leftDig{
+    color: black;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.6rem;
+    box-shadow: none;
+    background-color: #fed428;
+    clip-path: polygon(10% 0%,100% 0,100% 100%,0% 100%);
+  }
+}
+
