@@ -272,6 +272,10 @@ main>.container{
           h4 {
             font-size: 1.8rem;
           }
+
+          &:hover h4{
+            text-decoration: underline;
+          }
         }
 
 
@@ -340,6 +344,15 @@ main>.container{
 }
 
 
+p{
+  a{
+    color: $color-secondary;
+    display: inline-block;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
 
 
 

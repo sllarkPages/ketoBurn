@@ -41,6 +41,17 @@
     text-align: left;
   }
 
+  h3{
+    a{
+      display: inline-block;
+      padding: 1rem 0.5rem;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+
 
 
 
@@ -125,6 +136,10 @@
         align-items: center;
         width: auto;
         color: $color-secondary-light;
+
+        &:hover{
+          text-decoration: underline;
+        }
       }
       img{
         margin-right: 1rem;
