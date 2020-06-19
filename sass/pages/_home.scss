@@ -46,7 +46,6 @@ main>.container{
 
   .heroSection{
     height: 50rem;
-    background-image: url(../../img/heroImahe.jpg);
     background-size: 107% 111%;
     /* background-position: 0px -21px; */
     background-repeat: no-repeat;
@@ -59,6 +58,16 @@ main>.container{
 
     @media (max-width: 600px) {
       background-position: center;
+    }
+
+
+    @media (min-width: 550px) {
+      background-image: url(../../img/heroImage.jpg);
+    }
+
+
+    @media (max-width: 550px) {
+      background-image: url(../../img/heroImageSmall.jpg);
     }
 
     .container{
