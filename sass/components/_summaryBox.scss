@@ -11,16 +11,17 @@
   border-top: 5px solid $color-secondary;
 
   h4{
-    font-size: 1.65rem;
+    font-size: 1.85rem;
     font-weight: bold;
     color: black;
   }
 
+
   &>p{
     margin-top: 1rem!important;
-    font-size: 1.4rem!important;
-    font-weight: 600!important;
-    line-height: 1.4!important;
+    font-size: 1.65rem!important;
+    //font-weight: 600!important;
+    line-height: 1.7!important;
   }
 
 }
